@@ -1,0 +1,62 @@
+
+*{
+    font-family: "Bahnschrift SemiBold";
+    color: #01161E;
+}
+
+body{
+
+    background-color: #EFF6E0;
+}
+
+header, footer{
+
+    background-color: #AEC3B0;
+    text-align: center;
+    padding: 3%;
+    background: linear-gradient(#AEC3B0 0%, #EFF6E0 100% );
+    display: block;
+    clear: both;
+/*
+===color3 black blue green
+black   #01161E
+blue    #124559
+blue    #598392
+green   #AEC3B0
+yellow  #EFF6E0
+*/
+}
+
+nav a{
+    display: inline-block;
+    width: 15%;
+    background-color: #AEC3B0;
+}
+
+
+
+
+div{
+    /*2+1.5+40+1.5+2+1.5+40+1.5+2*/
+    width: 23.5%;
+    margin: 3%;
+    padding: 1.5%;
+    height: 20%;
+    display: inline-block;    
+    vertical-align: top;
+    background-color:#AEC3B0;
+}
+
+
+.whole{
+
+    display: block;
+    float:none;
+    width: 90%;   
+}
+
+a:hover{
+
+    color:#EFF6E0;
+    background:#598392;
+}
